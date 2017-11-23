@@ -19,4 +19,8 @@ export class HeaderComponent {
                 (error) => console.log(error)
             );
     }
+
+    onFetchData() {
+        this.dataStorageService.getRecipes();
+    }
 }
