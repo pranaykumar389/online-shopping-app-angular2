@@ -9,7 +9,7 @@ import { RecipeEditComponent } from 'app/recipes/recipe-edit/recipe-edit.compone
 import { SignupComponent } from 'app/auth/signup/signup.component';
 import { SigninComponent } from 'app/auth/signin/signin.component';
 import { AuthGuard } from 'app/auth/auth-guard.service';
-import { HomeComponent } from 'app/home/home.component';
+import { HomeComponent } from './core/home/home.component';
 
 
 const appRoutes: Routes = [
