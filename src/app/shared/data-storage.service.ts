@@ -1,6 +1,6 @@
 import { Injectable } from "@angular/core";
 import { Http, Response } from '@angular/http';
-import 'rxjs/RX';
+import 'rxjs/Rx';
 
 import { RecipeService } from "app/recipes/recipe.service";
 import { Recipe } from "app/recipes/recipe.model";
@@ -31,8 +31,8 @@ export class DataStorageService {
                         if (!recipe['ingredients']) {
                             recipe['ingredients'] = [];
                         }
-                        return recipes;
                     }
+                    return recipes;
                 }
             )
             .subscribe(
